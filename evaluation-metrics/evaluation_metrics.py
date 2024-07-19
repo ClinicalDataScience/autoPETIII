@@ -64,7 +64,7 @@ def calc_dice_score(*, prediction: np.ndarray, ground_truth: np.ndarray) -> floa
     return float(dice_score)
 
 
-def compute_metrics(gt_path: str, pred_path: str) -> [float, float, float]:
+def compute_metrics(nii_gt_path: str, nii_pred_path: str) -> [float, float, float]:
     gt_array, voxel_vol = nii2numpy(nii_gt_path)
     pred_array, _ = nii2numpy(nii_pred_path)
 
