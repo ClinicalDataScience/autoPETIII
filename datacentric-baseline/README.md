@@ -1,6 +1,6 @@
 # Datacentric baseline algorithm for autoPETIII challenge
 
-Source code for the datacentric baseline algorithm container for autoPETIII challenge.Information about the 
+Source code for the datacentric baseline algorithm container for autoPETIII challenge. Information about the 
 submission can be found [here](https://autopet-iii.grand-challenge.org/submission/) and in the [grand challenge 
 documentation](https://grand-challenge.org/documentation/).
 
@@ -24,16 +24,15 @@ category will also score in award category 1. Clarification on the rules can be 
 
 In order to use the baseline you first need to download the baseline weights via `bash download_model_weights.sh`. 
 After that you can build the container by running `bash build.sh`. In order to participate in the second award 
-category your model must be identical to the datacentric-challenge fixed code. We will check for that. The simplest 
-way to start is just by replacing the baseline weights in the weights folder with your own. If you use different 
-pre- or post-processing you will need to modify the code in `predict.py`. After that, change the `process.py` file so 
-that it calls your desired predict function. Finally, adapt the `requirements.txt` to your needs.
-
+category your model must be identical to the datacentric-challenge fixed code. We will verify this. The simplest way 
+to start is by replacing the baseline weights in the weights folder with your own. If you use different pre- or 
+post-processing, you will need to modify the code in `predict.py`. After that, update the `process.py` file to call 
+your desired predict function. Finally, adapt the `requirements.txt` file to your needs.
 ## Testing
 
 Use a python 3.10 based environment and install the requirements.txt file via `pip install -r requirements.txt`. 
-Make sure model weights exist in `/weights`. Download the baseline weights by running `bash download_model_weights.
-sh`. Then run `predict.py` to create an expected_output mask. After that you can run `bash test.sh`. The test will 
+Make sure model weights exist in `/weights`. Download the baseline weights by running `bash download_model_weights.sh`. 
+Then run `predict.py` to create an expected_output mask. After that you can run `bash test.sh`. The test will 
 only pass if your model is deterministic. For this repo you will need to disable test-time augmentation in the 
 `process.py` file by setting `self.tta = False` in the init function. 
 
