@@ -4,7 +4,7 @@ Repository for code associated with autoPETIII machine learning challenge: <br/>
 [autopet-iii.grand-challenge.org](https://autopet-iii.grand-challenge.org/autopet-iii/) 
 
 If you use the data associated to this challenge, please cite: <br/>
-<a href="https://doi.org/10.7937/gkr0-xv29"><img src="https://img.shields.io/badge/DOI-10.7937%2Fgkr0--xv29-blue"></a>
+<a href="https://doi.org/10.7937/gkr0-xv29"><img src="https://img.shields.io/badge/DOI-10.7937%2Fgkr0--xv29-blue"></a> <a href="https://doi.org/10.7937/r7ep-3x37"><img src="https://img.shields.io/badge/DOI-10.7937%2Fr7ep--3x37-blue"></a> 
 
 ```
 Gatidis S, Kuestner T. A whole-body FDG-PET/CT dataset with manually annotated tumor lesions (FDG-PET-CT-Lesions) 
@@ -13,10 +13,11 @@ Gatidis S, Kuestner T. A whole-body FDG-PET/CT dataset with manually annotated t
 
 and
 <br/>
-COMMING SOON
 
 ```
-COMING SOON
+Jeblick, K., et al. A whole-body PSMA-PET/CT dataset with manually annotated tumor lesions 
+(PSMA-PET-CT-Lesions) (Version 1) [Dataset]. The Cancer Imaging Archive, 2024.
+DOI: 10.7937/r7ep-3x37
 ```
 
 ## nnunet-baseline
