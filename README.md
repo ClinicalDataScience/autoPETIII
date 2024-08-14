@@ -39,7 +39,7 @@ Evaluation code for the autoPETIII challenge according to [here](https://autopet
 ## References
 Challenge: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10990932.svg)](https://doi.org/10.5281/zenodo.10990932)<br/>
 FDG Database: <a href="https://doi.org/10.7937/gkr0-xv29"><img src="https://img.shields.io/badge/DOI-10.7937%2Fgkr0--xv29-blue"></a> <br/>
-PSMA Database: COMMING SOON
+PSMA Database: <a href="https://doi.org/10.7937/r7ep-3x37"><img src="https://img.shields.io/badge/DOI-10.7937%2Fr7ep--3x37-blue"></a> 
 
 
 
