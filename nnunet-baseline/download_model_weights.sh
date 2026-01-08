@@ -10,7 +10,6 @@ echo "Download: ${ZIP_NAME}"
 curl -L -o "${ZIP_NAME}" "${URL}"
 
 echo "Extracting nnUNet_results"
-unzip "${ZIP_NAME}" "AutoPETIII_nnunet_baseline/nnUNet_results/*"
-mv AutoPETIII_nnunet_baseline/nnUNet_results .
+unzip "${ZIP_NAME}"
 rm -rf AutoPETIII_nnunet_baseline "${ZIP_NAME}"
 
